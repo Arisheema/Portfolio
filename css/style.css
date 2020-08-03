@@ -1,7 +1,25 @@
-/*font-family: 'Tillana', cursive;*/
+/*font-family: 'paintingwithchocolate';*/
+@font-face {
+    font-family: 'PaintingWithChocolate';
+    src: url('../fonts/PaintingWithChocolate/PaintingWithChocolate.eot?#iefix') format('embedded-opentype'),  url('../fonts/PaintingWithChocolate/PaintingWithChocolate.woff') format('woff'), url('../fonts/PaintingWithChocolate/PaintingWithChocolate.ttf')  format('truetype'), url('../fonts/PaintingWithChocolate/PaintingWithChocolate.svg#PaintingWithChocolate') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
 
-h1 {
+h1, h2 {
     color: #463F3A;
-    font-family: 'Tillana', cursive;
-    font-size: 16px;
+    text-align: center;
 }
+h1{
+    font-family: 'PaintingWithChocolate';
+    font-size: 48px;
+}
+h2{
+    font-size: 30px;
+    font-family: 'Josefin Sans';
+}
+body{
+    background-color: #E0AFA0;  
+}
+/*background-image: url('../images/waves.webm')*/
