@@ -1,7 +1,10 @@
 /*font-family: 'paintingwithchocolate';*/
 @font-face {
     font-family: 'PaintingWithChocolate';
-    src: url('../fonts/PaintingWithChocolate/PaintingWithChocolate.eot?#iefix') format('embedded-opentype'),  url('../fonts/PaintingWithChocolate/PaintingWithChocolate.woff') format('woff'), url('../fonts/PaintingWithChocolate/PaintingWithChocolate.ttf')  format('truetype'), url('../fonts/PaintingWithChocolate/PaintingWithChocolate.svg#PaintingWithChocolate') format('svg');
+    src: url('../fonts/PaintingWithChocolate/PaintingWithChocolate.eot?#iefix') format('embedded-opentype'),  
+    url('../fonts/PaintingWithChocolate/PaintingWithChocolate.woff') format('woff'), 
+    url('../fonts/PaintingWithChocolate/PaintingWithChocolate.ttf')  format('truetype'), 
+    url('../fonts/PaintingWithChocolate/PaintingWithChocolate.svg#PaintingWithChocolate') format('svg');
     font-weight: normal;
     font-style: normal;
   }
@@ -27,6 +30,7 @@ h2{
 }
 body{
     background-color: #f0d8d1;  
+    margin: auto;
 }
 h3{
     font-size: 20px;
@@ -35,9 +39,7 @@ p{
     font-size: 16px;
     text-align: justify;
 }
-footer{
-    background-color: #F4F3EE;
-}
+
 div{
     width: 400px;
     background-color: #F4F3EE;
@@ -45,6 +47,9 @@ div{
     padding: 20px;
 }
 footer{
-    align-items: right;
+    align-items: bottom;
+    width: 100vw;
+    margin: auto;
+    background-color: #F4F3EE;
 }
 /*background-image: url('../images/waves.webm')- convert to file not on web*/
